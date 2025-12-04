@@ -3,8 +3,12 @@
     "prompt": "give me my vitals",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "give me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "give me my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -38,8 +42,12 @@
     "prompt": "show me the vitals",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "show me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "show me the vitals"
+        "text": "the vitals"
       }
     ]
   },
@@ -47,8 +55,12 @@
     "prompt": "pull up our vitals",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "pull up "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "pull up our vitals"
+        "text": "our vitals"
       }
     ]
   },
@@ -86,8 +98,12 @@
     "prompt": "make a new task",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "make "
+      },
+      {
         "type": "CREATE_TASK",
-        "text": "make a new task"
+        "text": "a new task"
       }
     ]
   },
@@ -227,8 +243,12 @@
     "prompt": "give me the next navigation objective",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "give me "
+      },
+      {
         "type": "NAVIGATION_QUERY",
-        "text": "give me the next navigation objective"
+        "text": "the next navigation objective"
       }
     ]
   },
@@ -506,8 +526,12 @@
     "prompt": "display current biometrics",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "display "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "display current biometrics"
+        "text": "current biometrics"
       }
     ]
   },
@@ -576,8 +600,12 @@
     "prompt": "show active waypoints",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "show "
+      },
+      {
         "type": "NAVIGATION_QUERY",
-        "text": "show active waypoints"
+        "text": "active waypoints"
       }
     ]
   },
@@ -594,8 +622,12 @@
     "prompt": "plot course for the next stop",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "plot course for "
+      },
+      {
         "type": "NAVIGATION_QUERY",
-        "text": "plot course for the next stop"
+        "text": "the next stop"
       }
     ]
   },
@@ -1600,8 +1632,12 @@
     "prompt": "Hey, could you show me my vitals?",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "Hey, could you show me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "Hey, could you show me my vitals?"
+        "text": "my vitals?"
       }
     ]
   },
@@ -1609,8 +1645,16 @@
     "prompt": "What's my vitals status right now?",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "What's "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "What's my vitals status right now?"
+        "text": "my vitals status"
+      },
+      {
+        "type": "JUSTTEXT",
+        "text": " right now?"
       }
     ]
   },
@@ -1618,8 +1662,16 @@
     "prompt": "show crew vitals for the whole team",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "show "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "show crew vitals for the whole team"
+        "text": "crew vitals"
+      },
+      {
+        "type": "JUSTTEXT",
+        "text": " for the whole team"
       }
     ]
   },
@@ -1627,8 +1679,16 @@
     "prompt": "chek my vitals please",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "chek "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "chek my vitals please"
+        "text": "my vitals"
+      },
+      {
+        "type": "JUSTTEXT",
+        "text": " please"
       }
     ]
   },
@@ -1686,8 +1746,12 @@
     "prompt": "Where are we going next?",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "Where are we going "
+      },
+      {
         "type": "NAVIGATION_QUERY",
-        "text": "Where are we going next?"
+        "text": "next?"
       }
     ]
   },
@@ -1695,8 +1759,12 @@
     "prompt": "whats the next navgation objective",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "whats "
+      },
+      {
         "type": "NAVIGATION_QUERY",
-        "text": "whats the next navgation objective"
+        "text": "the next navgation objective"
       }
     ]
   },
@@ -1963,8 +2031,12 @@
     "prompt": "how is my body doing, vitals-wise",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "how is my body doing, "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "how is my body doing, vitals-wise"
+        "text": "vitals-wise"
       }
     ]
   },
@@ -1990,8 +2062,12 @@
     "prompt": "plot navigation route back to home base",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "plot "
+      },
+      {
         "type": "NAVIGATION_QUERY",
-        "text": "plot navigation route back to home base"
+        "text": "navigation route back to home base"
       }
     ]
   },
