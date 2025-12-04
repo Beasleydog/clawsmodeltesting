@@ -17,11 +17,11 @@
     "parts": [
       {
         "type": "JUSTTEXT",
-        "text": "yo "
+        "text": "yo what are "
       },
       {
         "type": "GET_VITALS",
-        "text": "what are my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -29,8 +29,12 @@
     "prompt": "give me my vitals please",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "give me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "give me my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -85,8 +89,12 @@
     "prompt": "what are my vitals right now",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "what are "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "what are my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -283,8 +291,12 @@
     "prompt": "what are my vitals and make a new task for fuel checks",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "what are "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "what are my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -308,8 +320,12 @@
     "prompt": "pull up the vitals then create a new task called launch prep",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "pull up "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "pull up the vitals"
+        "text": "the vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -333,8 +349,12 @@
     "prompt": "give me my vitals and what is the next navigation objective",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "give me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "give me my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -350,8 +370,12 @@
     "prompt": "show me vitals then what navigation objective comes next",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "show me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "show me vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -368,11 +392,11 @@
     "parts": [
       {
         "type": "JUSTTEXT",
-        "text": "after "
+        "text": "after checking "
       },
       {
         "type": "GET_VITALS",
-        "text": "checking vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -396,8 +420,12 @@
     "prompt": "check my vitals and add a task for engine inspection",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -421,8 +449,12 @@
     "prompt": "what are my vitals and what do we navigate to next",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "what are "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "what are my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -451,11 +483,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " and "
+        "text": " and tell me "
       },
       {
         "type": "GET_VITALS",
-        "text": "tell me my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -488,8 +520,12 @@
     "prompt": "grab my vitals then start a task for baseline diagnostics",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "grab "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "grab my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -758,8 +794,12 @@
     "prompt": "display biometrics and create a task called sleep mode",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "display "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "display biometrics"
+        "text": "biometrics"
       },
       {
         "type": "JUSTTEXT",
@@ -783,16 +823,20 @@
     "prompt": "check my health then show next waypoint",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check my health"
+        "text": "my health"
       },
       {
         "type": "JUSTTEXT",
-        "text": " then "
+        "text": " then show "
       },
       {
         "type": "NAVIGATION_QUERY",
-        "text": "show next waypoint"
+        "text": "next waypoint"
       }
     ]
   },
@@ -830,11 +874,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " and "
+        "text": " and how are "
       },
       {
         "type": "GET_VITALS",
-        "text": "how are my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -855,11 +899,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " then "
+        "text": " then tell me "
       },
       {
         "type": "NAVIGATION_QUERY",
-        "text": "tell me the navigation plan"
+        "text": "the navigation plan"
       }
     ]
   },
@@ -867,8 +911,12 @@
     "prompt": "get me vitals after that add task suit pressurization",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "get me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "get me vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -892,16 +940,20 @@
     "prompt": "scan vitals and plot route to base",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "scan "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "scan vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
-        "text": " and "
+        "text": " and plot "
       },
       {
         "type": "NAVIGATION_QUERY",
-        "text": "plot route to base"
+        "text": "route to base"
       }
     ]
   },
@@ -922,11 +974,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " plus "
+        "text": " plus get "
       },
       {
         "type": "GET_VITALS",
-        "text": "get vitals"
+        "text": "vitals"
       }
     ]
   },
@@ -1006,8 +1058,12 @@
     "prompt": "check body status and add task inventory count",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check body status"
+        "text": "body status"
       },
       {
         "type": "JUSTTEXT",
@@ -1057,8 +1113,12 @@
     "prompt": "pull biometrics now please",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "pull "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "pull biometrics"
+        "text": "biometrics"
       },
       {
         "type": "JUSTTEXT",
@@ -1096,8 +1156,12 @@
     "prompt": "check vitals and where is the rendezvous point",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1126,11 +1190,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " then "
+        "text": " then report "
       },
       {
         "type": "GET_VITALS",
-        "text": "report vitals"
+        "text": "vitals"
       }
     ]
   },
@@ -1138,8 +1202,12 @@
     "prompt": "check the vitals and queue a task for hull inspection",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check the vitals"
+        "text": "the vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1163,8 +1231,12 @@
     "prompt": "give me vitals plus where is our next waypoint",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "give me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "give me vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1193,11 +1265,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " and "
+        "text": " and read "
       },
       {
         "type": "GET_VITALS",
-        "text": "read my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -1214,8 +1286,12 @@
     "prompt": "pull vitals and schedule task pressure check",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "pull "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "pull vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1269,11 +1345,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " and "
+        "text": " and show "
       },
       {
         "type": "NAVIGATION_QUERY",
-        "text": "show nav target"
+        "text": "nav target"
       }
     ]
   },
@@ -1294,11 +1370,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " and "
+        "text": " and what are "
       },
       {
         "type": "GET_VITALS",
-        "text": "what are my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -1306,8 +1382,12 @@
     "prompt": "how are the vitals and where should we head afterward",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "how are "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "how are the vitals"
+        "text": "the vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1340,8 +1420,12 @@
     "prompt": "display vitals and make task named water recycling",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "display "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "display vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1391,11 +1475,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": ", "
+        "text": ", plot "
       },
       {
         "type": "NAVIGATION_QUERY",
-        "text": "plot route to emergency bay"
+        "text": "route to emergency bay"
       }
     ]
   },
@@ -1429,8 +1513,12 @@
     "prompt": "check health stats then add task soil sampling",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check health stats"
+        "text": "health stats"
       },
       {
         "type": "JUSTTEXT",
@@ -1556,8 +1644,12 @@
     "prompt": "get my vitals then make task go outside",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "get "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "get my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1696,8 +1788,12 @@
     "prompt": "check my vitals and then after that create a task called daily report",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1721,8 +1817,12 @@
     "prompt": "First, show me my vitals. Then create a task named daily report",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "First, show me "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "First, show me my vitals."
+        "text": "my vitals."
       },
       {
         "type": "JUSTTEXT",
@@ -1789,16 +1889,20 @@
     "prompt": "how is my health looking and also how are my vitals",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "how is "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "how is my health looking"
+        "text": "my health"
       },
       {
         "type": "JUSTTEXT",
-        "text": " and also "
+        "text": " looking and also how are "
       },
       {
         "type": "GET_VITALS",
-        "text": "how are my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -1872,8 +1976,12 @@
     "prompt": "tell me the next waypoint and create a task named log coordinates",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "tell me "
+      },
+      {
         "type": "NAVIGATION_QUERY",
-        "text": "tell me the next waypoint"
+        "text": "the next waypoint"
       },
       {
         "type": "JUSTTEXT",
@@ -1910,11 +2018,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " as well as "
+        "text": " as well as show me "
       },
       {
         "type": "NAVIGATION_QUERY",
-        "text": "show me the next navigation objective"
+        "text": "the next navigation objective"
       }
     ]
   },
@@ -1922,8 +2030,12 @@
     "prompt": "check my vitals, then make a task called morning briefing and finally show the next waypoint",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "check "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "check my vitals"
+        "text": "my vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -1943,11 +2055,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " and finally "
+        "text": " and finally show "
       },
       {
         "type": "NAVIGATION_QUERY",
-        "text": "show the next waypoint"
+        "text": "the next waypoint"
       }
     ]
   },
@@ -1976,11 +2088,11 @@
       },
       {
         "type": "JUSTTEXT",
-        "text": " and "
+        "text": " and how are "
       },
       {
         "type": "GET_VITALS",
-        "text": "how are my vitals"
+        "text": "my vitals"
       }
     ]
   },
@@ -2313,8 +2425,12 @@
     "prompt": "gimme the vitals and add a reminder to circle back",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "gimme "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "gimme the vitals"
+        "text": "the vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -2338,8 +2454,12 @@
     "prompt": "show vitals then make a task to go back over the checklist",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "show "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "show vitals"
+        "text": "vitals"
       },
       {
         "type": "JUSTTEXT",
@@ -2363,8 +2483,12 @@
     "prompt": "get my stats and remind me to do the daily briefing",
     "parts": [
       {
+        "type": "JUSTTEXT",
+        "text": "get "
+      },
+      {
         "type": "GET_VITALS",
-        "text": "get my stats"
+        "text": "my stats"
       },
       {
         "type": "JUSTTEXT",
